@@ -13,7 +13,6 @@ In this US, I want to have a map composed of 4 rows and 3 columns when I input
 
 ## User story 2 : Add obstacles
 
-I want to have a map composed of 4 rows, 3 columns and a mountain in position 1
-- 1 when I input
+I want to have a map composed of 4 rows, 3 columns and a mountain in position 1 - 1 when I input
 "C-3-4
 M-1-1"

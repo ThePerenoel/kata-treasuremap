@@ -27,7 +27,12 @@ public class TreasureMapTest {
             assertThat(treasureMap).isEqualTo(new TreasureMap(1,0));
         }
 
-        
+        @Test
+        void return_TreasureMap_with_1_line_and_no_column_when_given_0_and_1() {
+            TreasureMap treasureMap = TreasureMap.of("C-0-1");
+
+            assertThat(treasureMap).isEqualTo(new TreasureMap(0,1));
+        }
 
 
 

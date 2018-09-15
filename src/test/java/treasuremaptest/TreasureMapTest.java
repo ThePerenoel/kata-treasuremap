@@ -35,6 +35,13 @@ public class TreasureMapTest {
         }
 
 
+        @Test
+        void return_TreasureMap_with_4_line_and_3_column_when_given_3_and_4() {
+            TreasureMap treasureMap = TreasureMap.of("C-3-4");
+
+            assertThat(treasureMap).isEqualTo(new TreasureMap(3,4));
+        }
+
 
 
     }

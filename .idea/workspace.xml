@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ad44f0-3135-459b-bd59-1a61f8ff7bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="450" />
+          <entry key="java" value="461" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="450" />
+          <entry key="JAVA" value="461" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -48,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="302">
+              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -89,8 +88,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" />
       </list>
     </option>
   </component>
@@ -162,7 +161,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///home/loic/IdeaProjects/kata-treasuremap/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537009636478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537009725788" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -228,6 +227,12 @@
     <history-entry file="TreasureMapTest - 2018.09.15 at 13h 03m 30s.xml">
       <configuration name="TreasureMapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 07m 18s.xml">
+      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 08m 33s.xml">
+      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
@@ -273,16 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -290,6 +285,16 @@
           <folding>
             <element signature="e#657#658#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

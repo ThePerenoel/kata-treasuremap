@@ -15,13 +15,22 @@ public class TreasureMapTest {
 
         @Test
         void return_TreasureMap_with_no_line_and_no_column_when_given_0_and_0() {
-            TreasureMap treasureMap = TreasureMap.of("C - 0 - 0");
+            TreasureMap treasureMap = TreasureMap.of("C-0-0");
 
             assertThat(treasureMap).isEqualTo(new TreasureMap(0,0));
         }
 
+        @Test
+        void return_TreasureMap_with_no_line_and_1_column_when_given_1_and_0() {
+            TreasureMap treasureMap = TreasureMap.of("C-1-0");
+
+            assertThat(treasureMap).isEqualTo(new TreasureMap(1,0));
+        }
 
         
+
+
+
 
     }
 

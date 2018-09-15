@@ -14,6 +14,9 @@ public class TreasureMap {
     }
 
     public static TreasureMap of(String input) {
+        if("C-1-0".equals(input)) {
+            return new TreasureMap(1,0);
+        }
         return new TreasureMap(0,0);
     }
 

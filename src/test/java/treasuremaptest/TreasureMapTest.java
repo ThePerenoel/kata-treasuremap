@@ -50,6 +50,13 @@ public class TreasureMapTest {
             assertThat(treasureMap).isEqualTo(new TreasureMap(3,10));
         }
 
+        @Test
+        void return_TreasureMap_with_20_line_and_34_column_when_given_34_and_20() {
+            TreasureMap treasureMap = TreasureMap.of("C-34-20");
+
+            assertThat(treasureMap).isEqualTo(new TreasureMap(34,20));
+        }
+
 
     }
 

@@ -101,10 +101,54 @@ public class AdventurerTest {
             assertThat(adventurer).isEqualTo(adventurerToCompare);
         }
 
+    }
 
+    @Nested
+    @DisplayName("Function changeDirection should")
+    class ChangeDirectionShould {
 
+        @Test
+        void return_Adventurer_with_orientation_S_when_given_S_to_Adventurer_with_different_orientation() {
+            Adventurer adventurer = new Adventurer(1,1,"W");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"S");
 
+            adventurer = adventurer.changeDirection("S");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_N_when_given_N_to_Adventurer_with_different_orientation() {
+            Adventurer adventurer = new Adventurer(1,1,"W");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"N");
+
+            adventurer = adventurer.changeDirection("N");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_E_when_given_E_to_Adventurer_with_different_orientation() {
+            Adventurer adventurer = new Adventurer(1,1,"W");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"E");
+
+            adventurer = adventurer.changeDirection("E");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_W_when_given_W_to_Adventurer_with_different_orientation() {
+            Adventurer adventurer = new Adventurer(1,1,"S");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"W");
+
+            adventurer = adventurer.changeDirection("W");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
 
     }
+
+
 
 }

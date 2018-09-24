@@ -1,6 +1,7 @@
 package adventurertest;
 
 import adventurer.Adventurer;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
@@ -9,10 +10,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class AdventurerTest {
 
     @Nested
-    class MoveAdventurerShould {
+    @DisplayName("Function goForward should")
+    class GoForwardShould {
 
         @Test
-        void return_adventurer_with_position_1_2_when_given_A() {
+        void return_adventurer_with_position_1_2_when_given_A_to_Adventurer_with_S_orientation() {
 
             Adventurer adventurer = new Adventurer(1,1,"S");
             Adventurer adventurerToCompare = new Adventurer(1,2,"S");
@@ -23,7 +25,7 @@ public class AdventurerTest {
         }
 
         @Test
-        void return_adventurer_with_position_1_3_when_given_AA() {
+        void return_adventurer_with_position_1_3_when_given_AA_to_Adventurer_with_S_orientation() {
 
             Adventurer adventurer = new Adventurer(1,1,"S");
             Adventurer adventurerToCompare = new Adventurer(1,3,"S");
@@ -34,7 +36,7 @@ public class AdventurerTest {
         }
 
         @Test
-        void return_adventurer_with_position_1_4_when_given_AAA() {
+        void return_adventurer_with_position_1_4_when_given_AAA_to_Adventurer_with_S_orientation() {
 
             Adventurer adventurer = new Adventurer(1,1,"S");
             Adventurer adventurerToCompare = new Adventurer(1,4,"S");

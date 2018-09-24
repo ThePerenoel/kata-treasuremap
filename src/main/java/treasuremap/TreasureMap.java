@@ -8,7 +8,6 @@ public class TreasureMap {
     private final int lines;
 
     public TreasureMap(int columns, int lines) {
-
         this.columns = columns;
         this.lines = lines;
     }

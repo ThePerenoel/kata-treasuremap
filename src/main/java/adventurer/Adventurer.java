@@ -14,20 +14,25 @@ public class Adventurer {
     }
 
     public Adventurer goForward(String move) {
-
         int numberOfSquaresToGo = getNumberOfSquaresToGo(move);
-
-        int newNorthing = this.northing;
-        if(AdventurerOrientation.NORTH.equals(this.orientation) || AdventurerOrientation.SOUTH.equals(this.orientation)) {
-            newNorthing += numberOfSquaresToGo;
-        }
-
-        int newEasting = this.easting;
-        if(AdventurerOrientation.EAST.equals(this.orientation) || AdventurerOrientation.WEST.equals(this.orientation)) {
-            newEasting += numberOfSquaresToGo;
-        }
+        int newNorthing = goForwardVertically(numberOfSquaresToGo);
+        int newEasting = moveForwardHorizontally(numberOfSquaresToGo);
 
         return new Adventurer(newEasting, newNorthing, this.orientation);
+    }
+
+    private int moveForwardHorizontally(int numberOfSquaresToGo) {
+        if(AdventurerOrientation.EAST.equals(this.orientation) || AdventurerOrientation.WEST.equals(this.orientation)) {
+            return this.easting + numberOfSquaresToGo;
+        }
+        return this.easting;
+    }
+
+    private int goForwardVertically(int numberOfSquaresToGo) {
+        if(AdventurerOrientation.NORTH.equals(this.orientation) || AdventurerOrientation.SOUTH.equals(this.orientation)) {
+            return this.northing + numberOfSquaresToGo;
+        }
+        return this.northing;
     }
 
     private int getNumberOfSquaresToGo(String move) {

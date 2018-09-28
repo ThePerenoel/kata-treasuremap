@@ -108,44 +108,85 @@ public class AdventurerTest {
     class ChangeDirectionShould {
 
         @Test
-        void return_Adventurer_with_orientation_S_when_given_S_to_Adventurer_with_different_orientation() {
-            Adventurer adventurer = new Adventurer(1,1,"W");
-            Adventurer adventurerToCompare = new Adventurer(1,1,"S");
+        void return_Adventurer_with_orientation_W_when_given_G_to_Adventurer_with_orientation_N() {
+            Adventurer adventurer = new Adventurer(1,1,"N");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"W");
 
-            adventurer = adventurer.changeDirection("S");
-
-            assertThat(adventurer).isEqualTo(adventurerToCompare);
-        }
-
-        @Test
-        void return_Adventurer_with_orientation_N_when_given_N_to_Adventurer_with_different_orientation() {
-            Adventurer adventurer = new Adventurer(1,1,"W");
-            Adventurer adventurerToCompare = new Adventurer(1,1,"N");
-
-            adventurer = adventurer.changeDirection("N");
+            adventurer = adventurer.changeDirection("G");
 
             assertThat(adventurer).isEqualTo(adventurerToCompare);
         }
 
         @Test
-        void return_Adventurer_with_orientation_E_when_given_E_to_Adventurer_with_different_orientation() {
-            Adventurer adventurer = new Adventurer(1,1,"W");
+        void return_Adventurer_with_orientation_E_when_given_D_to_Adventurer_with_orientation_N() {
+            Adventurer adventurer = new Adventurer(1,1,"N");
             Adventurer adventurerToCompare = new Adventurer(1,1,"E");
 
-            adventurer = adventurer.changeDirection("E");
+            adventurer = adventurer.changeDirection("D");
 
             assertThat(adventurer).isEqualTo(adventurerToCompare);
         }
 
         @Test
-        void return_Adventurer_with_orientation_W_when_given_W_to_Adventurer_with_different_orientation() {
+        void return_Adventurer_with_orientation_E_when_given_G_to_Adventurer_with_orientation_S() {
+            Adventurer adventurer = new Adventurer(1,1,"S");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"E");
+
+            adventurer = adventurer.changeDirection("G");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_W_when_given_D_to_Adventurer_with_orientation_S() {
             Adventurer adventurer = new Adventurer(1,1,"S");
             Adventurer adventurerToCompare = new Adventurer(1,1,"W");
 
-            adventurer = adventurer.changeDirection("W");
+            adventurer = adventurer.changeDirection("D");
 
             assertThat(adventurer).isEqualTo(adventurerToCompare);
         }
+
+        @Test
+        void return_Adventurer_with_orientation_N_when_given_D_to_Adventurer_with_orientation_W() {
+            Adventurer adventurer = new Adventurer(1,1,"W");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"N");
+
+            adventurer = adventurer.changeDirection("D");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_S_when_given_G_to_Adventurer_with_orientation_W() {
+            Adventurer adventurer = new Adventurer(1,1,"W");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"S");
+
+            adventurer = adventurer.changeDirection("G");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_S_when_given_D_to_Adventurer_with_orientation_E() {
+            Adventurer adventurer = new Adventurer(1,1,"E");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"S");
+
+            adventurer = adventurer.changeDirection("D");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
+        @Test
+        void return_Adventurer_with_orientation_N_when_given_G_to_Adventurer_with_orientation_E() {
+            Adventurer adventurer = new Adventurer(1,1,"E");
+            Adventurer adventurerToCompare = new Adventurer(1,1,"N");
+
+            adventurer = adventurer.changeDirection("G");
+
+            assertThat(adventurer).isEqualTo(adventurerToCompare);
+        }
+
 
     }
 

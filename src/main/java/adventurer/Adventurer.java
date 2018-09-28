@@ -2,6 +2,8 @@ package adventurer;
 
 import java.util.Objects;
 
+import static adventurer.AdventurerOrientation.*;
+
 public class Adventurer {
     private final int easting;
     private final int northing;
@@ -21,16 +23,16 @@ public class Adventurer {
     }
 
     private int moveForwardHorizontally(int numberOfSquaresToGo) {
-        if(AdventurerOrientation.EAST.equals(this.orientation) ||
-                AdventurerOrientation.WEST.equals(this.orientation)) {
+        if(EAST.equals(this.orientation) ||
+                WEST.equals(this.orientation)) {
             return this.easting + numberOfSquaresToGo;
         }
         return this.easting;
     }
 
     private int goForwardVertically(int numberOfSquaresToGo) {
-        if(AdventurerOrientation.NORTH.equals(this.orientation) ||
-                AdventurerOrientation.SOUTH.equals(this.orientation)) {
+        if(NORTH.equals(this.orientation) ||
+                SOUTH.equals(this.orientation)) {
             return this.northing + numberOfSquaresToGo;
         }
         return this.northing;
@@ -69,13 +71,28 @@ public class Adventurer {
     }
 
     public Adventurer changeDirection(String direction) {
-        return new Adventurer(this.easting,this.northing,direction);
+        if(NORTH.equals(orientation)) {
+            if("D".equals(direction)) {
+                return new Adventurer(this.easting,this.northing,"E");
+            }
+            return new Adventurer(this.easting,this.northing,"W");
+        }
+        if(SOUTH.equals(orientation)) {
+            if ("D".equals(direction)) {
+                return new Adventurer(this.easting, this.northing, "W");
+            }
+            return new Adventurer(this.easting, this.northing, "E");
+        }
+        if(WEST.equals(orientation)) {
+            if ("D".equals(direction)) {
+                return new Adventurer(this.easting, this.northing, "N");
+            }
+            return new Adventurer(this.easting, this.northing, "S");
+        }
+        if ("D".equals(direction)) {
+            return new Adventurer(this.easting, this.northing, "S");
+        }
+        return new Adventurer(this.easting, this.northing, "N");
     }
 
-    public Adventurer move(String moveSequence) {
-
-        Adventurer adventurer = goForward(moveSequence);
-
-        return adventurer;
-    }
 }

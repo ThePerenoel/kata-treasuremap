@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ad44f0-3135-459b-bd59-1a61f8ff7bf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,8 +18,10 @@
     <session id="-1017220430">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,13 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="490" />
+          <entry key="java" value="763" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="490" />
+          <entry key="JAVA" value="763" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -46,33 +50,70 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="576">
+                  <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="74">
+                  <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +121,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adve</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,6 +136,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java" />
       </list>
     </option>
   </component>
@@ -112,8 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,16 +201,24 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="treasuremap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kata-treasuremap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="treasuremaptest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///home/loic/IdeaProjects/kata-treasuremap/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537009977570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538125898131" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -180,7 +237,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AdventurerTest">
+    <configuration name="AdventurerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-treasuremap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adventurertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adventurertest" />
+      <option name="MAIN_CLASS_NAME" value="adventurertest.AdventurerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreasureMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kata-treasuremap" />
       <extension name="coverage">
@@ -195,8 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.TreasureMapTest" />
+      <item itemvalue="JUnit.AdventurerTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdventurerTest" />
         <item itemvalue="JUnit.TreasureMapTest" />
       </list>
     </recent_temporary>
@@ -215,50 +291,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreasureMapTest - 2018.09.15 at 12h 53m 26s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 50m 17s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 12h 58m 34s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 51m 02s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 00m 47s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 52m 01s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 03m 30s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 52m 30s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 07m 18s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 52m 40s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 08m 33s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 53m 33s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 08m 48s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 54m 09s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 10m 55s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 55m 00s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreasureMapTest - 2018.09.15 at 13h 11m 22s.xml">
-      <configuration name="TreasureMapTest" configurationId="JUnit" />
+    <history-entry file="AdventurerTest - 2018.09.28 at 10h 55m 30s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdventurerTest - 2018.09.28 at 11h 11m 41s.xml">
+      <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25262576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32975295" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32975295" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32975295" />
@@ -266,14 +341,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32975295" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32975295" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -287,21 +366,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="576">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treasuremaptest/TreasureMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treasuremap/TreasureMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+        <state relative-caret-position="450">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

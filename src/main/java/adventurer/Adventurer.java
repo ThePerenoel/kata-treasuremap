@@ -7,44 +7,59 @@ import static adventurer.AdventurerOrientation.*;
 public class Adventurer {
     private final int easting;
     private final int northing;
-    private final String orientation;
+    private final AdventurerOrientation adventurerOrientation;
 
     public Adventurer(int easting, int northing, String orientation) {
         this.easting = easting;
         this.northing = northing;
-        this.orientation = orientation;
+        adventurerOrientation = AdventurerOrientation.with(orientation);
+    }
+
+    public Adventurer(int easting, int northing, AdventurerOrientation adventurerOrientation) {
+        this.easting = easting;
+        this.northing = northing;
+        this.adventurerOrientation = adventurerOrientation;
     }
 
     public Adventurer goForward(String move) {
         int numberOfSquaresToGo = getNumberOfSquaresToGo(move);
         int newNorthing = goForwardVertically(numberOfSquaresToGo);
         int newEasting = moveForwardHorizontally(numberOfSquaresToGo);
-        return new Adventurer(newEasting, newNorthing, this.orientation);
+        return new Adventurer(newEasting, newNorthing, adventurerOrientation);
     }
 
     private int moveForwardHorizontally(int numberOfSquaresToGo) {
-        if(EAST.equals(this.orientation) ||
-                WEST.equals(this.orientation)) {
+        if(this.adventurerOrientation.isEqualTo(EAST) ||
+                this.adventurerOrientation.isEqualTo(WEST)) {
             return this.easting + numberOfSquaresToGo;
         }
         return this.easting;
     }
 
     private int goForwardVertically(int numberOfSquaresToGo) {
-        if(NORTH.equals(this.orientation) ||
-                SOUTH.equals(this.orientation)) {
+        if(this.adventurerOrientation.isEqualTo(NORTH) ||
+                this.adventurerOrientation.isEqualTo(SOUTH)) {
             return this.northing + numberOfSquaresToGo;
         }
         return this.northing;
     }
 
     private int getNumberOfSquaresToGo(String move) {
-        if("N".equals(this.orientation) || "W".equals(this.orientation)) {
+        if(this.adventurerOrientation.isEqualTo(NORTH) ||
+                this.adventurerOrientation.isEqualTo(WEST)) {
             return move.length() * (-1);
         }
         return move.length();
     }
 
+    public Adventurer changeDirection(String direction) {
+        AdventurerOrientation newAdventurerOrientation = getNewOrientation(direction);
+        return new Adventurer(this.easting, this.northing, newAdventurerOrientation);
+    }
+
+    private AdventurerOrientation getNewOrientation(String direction) {
+        return adventurerOrientation.changeDirection(direction);
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -53,12 +68,12 @@ public class Adventurer {
         Adventurer that = (Adventurer) o;
         return easting == that.easting &&
                 northing == that.northing &&
-                Objects.equals(orientation, that.orientation);
+                Objects.equals(adventurerOrientation, that.adventurerOrientation);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(easting, northing, orientation);
+        return Objects.hash(easting, northing, adventurerOrientation);
     }
 
     @Override
@@ -66,33 +81,8 @@ public class Adventurer {
         return "Adventurer{" +
                 "easting=" + easting +
                 ", northing=" + northing +
-                ", orientation='" + orientation + '\'' +
+                ", adventurerOrientation=" + adventurerOrientation +
                 '}';
-    }
-
-    public Adventurer changeDirection(String direction) {
-        if(NORTH.equals(orientation)) {
-            if("D".equals(direction)) {
-                return new Adventurer(this.easting,this.northing,"E");
-            }
-            return new Adventurer(this.easting,this.northing,"W");
-        }
-        if(SOUTH.equals(orientation)) {
-            if ("D".equals(direction)) {
-                return new Adventurer(this.easting, this.northing, "W");
-            }
-            return new Adventurer(this.easting, this.northing, "E");
-        }
-        if(WEST.equals(orientation)) {
-            if ("D".equals(direction)) {
-                return new Adventurer(this.easting, this.northing, "N");
-            }
-            return new Adventurer(this.easting, this.northing, "S");
-        }
-        if ("D".equals(direction)) {
-            return new Adventurer(this.easting, this.northing, "S");
-        }
-        return new Adventurer(this.easting, this.northing, "N");
     }
 
 }

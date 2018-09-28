@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ad44f0-3135-459b-bd59-1a61f8ff7bf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
-          <entry key="java" value="1406" />
+          <entry key="java" value="1619" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1406" />
+          <entry key="JAVA" value="1619" />
           <entry key="PLAIN_TEXT" value="37" />
           <entry key="XML" value="9" />
         </counts>
@@ -69,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
-                  <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+                <state relative-caret-position="396">
+                  <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -94,12 +95,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+                <state relative-caret-position="198">
+                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#3173#3174#0" expanded="true" />
-                    <element signature="e#3263#3264#0" expanded="true" />
+                    <element signature="e#2666#2667#0" expanded="true" />
+                    <element signature="e#2743#2744#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -108,8 +109,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="717">
-                  <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
                   <folding>
                     <element signature="e#728#729#0" expanded="true" />
                     <element signature="e#776#777#0" expanded="true" />
@@ -228,7 +229,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///home/loic/IdeaProjects/kata-treasuremap/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538138864396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538140999532" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -302,34 +303,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 27m 20s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 14h 53m 01s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 28m 58s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 10m 36s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 30m 17s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 11m 22s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 32m 13s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 11m 58s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 32m 38s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 12m 11s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 32m 55s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 13m 27s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 38m 43s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 15m 40s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 43m 34s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 16m 32s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 12h 44m 02s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 22m 46s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdventurerTest - 2018.09.28 at 14h 47m 07s.xml">
+    <history-entry file="AdventurerTest - 2018.09.28 at 15h 23m 24s.xml">
       <configuration name="AdventurerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -346,7 +347,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32975295" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -394,20 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/AdventurerOrientation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="65" column="52" lean-forward="true" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <element signature="e#728#729#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
@@ -419,12 +410,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adventurer/Adventurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        <state relative-caret-position="198">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3263#3264#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adventurertest/AdventurerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

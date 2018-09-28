@@ -9,12 +9,6 @@ public class Adventurer {
     private final int northing;
     private final AdventurerOrientation adventurerOrientation;
 
-    public Adventurer(int easting, int northing, String orientation) {
-        this.easting = easting;
-        this.northing = northing;
-        adventurerOrientation = AdventurerOrientation.with(orientation);
-    }
-
     public Adventurer(int easting, int northing, AdventurerOrientation adventurerOrientation) {
         this.easting = easting;
         this.northing = northing;
@@ -53,12 +47,8 @@ public class Adventurer {
     }
 
     public Adventurer changeDirection(String direction) {
-        AdventurerOrientation newAdventurerOrientation = getNewOrientation(direction);
+        AdventurerOrientation newAdventurerOrientation = adventurerOrientation.changeDirection(direction);
         return new Adventurer(this.easting, this.northing, newAdventurerOrientation);
-    }
-
-    private AdventurerOrientation getNewOrientation(String direction) {
-        return adventurerOrientation.changeDirection(direction);
     }
 
     @Override
